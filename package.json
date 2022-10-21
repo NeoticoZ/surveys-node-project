@@ -28,5 +28,6 @@
     "test": "jest",
     "test:staged": "jest",
     "prepare": "husky install"
-  }
+  },
+  "repository": "https://github.com/NeoticoZ/node-solid-project.git"
 }
