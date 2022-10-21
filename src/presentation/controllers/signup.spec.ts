@@ -15,7 +15,7 @@ describe('SignUp Controller', () => {
     expect(httpResponse.body).toEqual(new Error('Missing param: name'))
   })
 
-  it('Should return 400 if no name is proved', () => {
+  it('Should return 400 if no email is proved', () => {
     const sut = new SignUpController()
     const httpRequest = {
       body: {
