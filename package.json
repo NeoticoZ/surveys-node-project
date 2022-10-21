@@ -25,8 +25,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
   "repository": "https://github.com/NeoticoZ/node-solid-project.git"
