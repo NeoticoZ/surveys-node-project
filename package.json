@@ -29,5 +29,5 @@
     "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
-  "repository": "https://github.com/NeoticoZ/node-solid-project.git"
+  "repository": "https://github.com/NeoticoZ/surveys-node-project.git"
 }
