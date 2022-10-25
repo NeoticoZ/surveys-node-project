@@ -7,6 +7,7 @@
   "devDependencies": {
     "@types/jest": "^29.2.0",
     "@types/node": "^18.11.2",
+    "@types/validator": "^13.7.9",
     "git-commit-msg-linter": "^4.2.1",
     "husky": "^8.0.0",
     "jest": "^29.2.1",
@@ -23,7 +24,9 @@
       "node_modules"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "validator": "^13.7.0"
+  },
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
